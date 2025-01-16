@@ -5,3 +5,4 @@ PyPDF2==3.0.1
 requests==2.31.0
 transformers==4.35.0  # Updated version
 pandas==2.0.3
+tokenizers==0.13.3  # Adding this explicitly
