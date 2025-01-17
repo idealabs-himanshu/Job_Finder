@@ -1,9 +1,11 @@
+--prefer-binary
 streamlit==1.29.0
 openai==0.28.0
 python-dotenv==1.0.0
 PyPDF2==3.0.1
 requests==2.31.0
+--find-links https://download.pytorch.org/whl/torch_stable.html
 transformers==4.28.1
 pandas==2.0.3
 pillow==10.2.0
-tokenizers>=0.11.1,<0.14,!=0.11.3  # Changed to match transformers requirements
+tokenizers==0.13.3 --no-build-isolation
