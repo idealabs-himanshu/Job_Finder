@@ -2,3 +2,8 @@ python3-dev
 build-essential
 gcc
 libc-dev
+libjpeg-dev
+libjpeg8-dev
+zlib1g-dev
+rustc
+cargo
